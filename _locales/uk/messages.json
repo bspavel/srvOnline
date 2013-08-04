@@ -1,0 +1,38 @@
+{
+   "EXTNAME":
+   {
+		"message": "СерверОнЛайн"
+   },
+   "EXTDESCRIPTION":
+   {
+		"message": "Перевірка доступності серверів"
+   },
+   "SRVNM":
+   {
+		"message": "Назва"
+   },
+   "IP":
+   {
+		"message": "повна адреса"
+   },
+   "DOWN":
+   {
+		"message": "НЕДОСТУПНИЙ"
+   },
+   "SAVEBUTTON":
+   {
+		"message": "Зберегти"
+   },
+   "CANCELBUTTON":
+   {
+		"message": "Відміна"
+   },
+   "OPTIONWINDOW":
+   {
+		"message": "СерверОнЛайн | Налаштування"
+   },
+   "SRVINFO":
+   {
+		"message": "Статус Серверів"   
+   }
+}

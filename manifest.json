@@ -1,0 +1,46 @@
+{
+    "manifest_version": 2,
+    "version" : "0.9",
+	"default_locale": "ru",
+	"name" : "__MSG_EXTNAME__",
+    "description" : "__MSG_EXTDESCRIPTION__",
+	"options_page": "options.html",
+	"icons":
+	{
+      "128": "imgs/icon128.png",
+      "16":  "imgs/icon48.png",
+      "32":  "imgs/icon.png",
+      "48":  "imgs/icon48.png"
+	},	
+	"browser_action":
+	{
+		"default_title": "__MSG_SRVINFO__",
+		"default_icon":  "imgs/icon.png",
+		"default_popup": "popup.html"
+	},
+    "permissions":
+	[
+		"tabs",
+        "https://*/*",
+        "http://*/*",
+		"notifications"
+    ],	
+	"content_scripts":
+	[
+		{
+		  "matches": ["http://*/*"],
+		  "css": ["css/style.css"],
+		  "js": ["js/options.js","js/popup.js","js/jquery-1.10.1.min.js"],
+		  "all_frames": true
+		}
+	],
+	"web_accessible_resources":
+	[
+		"imgs/icon.png"
+	],
+	"background" :
+	{
+        "scripts": ["js/caution.js"],
+        "persistent": true
+    }
+}

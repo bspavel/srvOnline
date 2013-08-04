@@ -1,0 +1,38 @@
+{
+ "EXTNAME":
+ {
+		"message": "СерверОнЛайн"
+ },
+ "EXTDESCRIPTION":
+ {
+		"message": "Проверка доступности серверов"
+ },
+ "SRVNM":
+ {
+		"message": "Название"
+ },
+ "IP":
+ {
+		"message": "полный адрес"
+ },
+ "DOWN":
+ {
+		"message": "НЕДОСТУПЕН"
+ },
+ "SAVEBUTTON":
+ {
+		"message": "Сохранить"
+ },
+ "CANCELBUTTON":
+ {
+		"message": "Отмена"
+ },
+ "OPTIONWINDOW":
+ {
+		"message": "СерверОнЛайн | Настройки"
+ },
+ "SRVINFO":
+ {
+		"message": "Статус серверов"
+ }
+}

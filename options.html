@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Srv Status</title>
+	<style>@import url("css/style.css");</style>
+	<script src="js/jquery-1.10.1.min.js"></script>
+	<script id="entry-template" type="text/mytemplate">
+		<label for="{{SRVNMID}}">{{LANGSRVNAME}}:</label>
+		<input id="{{SRVNMID}}" type="text" value="{{SRVNAME}}" class="srvnm" />
+		<br />
+		<label for="{{SRVID}}">{{LANGIPADDR}}:</label>		
+		<input type="text" id="{{SRVID}}" value="{{SRVIP}}"	class="srvip" size="25" />
+	</script>
+</head>
+<body>
+	<table border="0" width="25%" id="setting" align="left">
+		<tr>
+			<td>	
+					<ol id="srvList"></ol>
+					<div align="right">
+						<button id="plus">+</button><button id="minus">-</button>
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td align="letf" valign="center">
+				<button id="save">Save</button><button id="cancel">Cancel</button>
+			</td>
+		</tr>
+	</table>
+	<script src="js/options.js"></script>
+</body>
+</html>

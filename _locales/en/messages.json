@@ -1,0 +1,38 @@
+{
+ "EXTNAME":
+ {
+	"message": "ServerOnLine"
+ },
+ "EXTDESCRIPTION":
+ {
+	"message": "Check availability servers"
+ },
+ "SRVNM":
+ {
+		"message": "name"
+ },
+ "IP":
+ {
+		"message": "full address"
+ },
+ "DOWN":
+ {
+		"message": "not available"
+ },
+ "SAVEBUTTON":
+ {
+		"message": "Save"
+ },
+ "CANCELBUTTON":
+ {
+		"message": "Cancel"
+ },
+ "OPTIONWINDOW":
+ {
+		"message": "ServerOnLine | Setting"
+ },
+ "SRVINFO":
+ {
+		"message": "Server Status"
+ }
+}
